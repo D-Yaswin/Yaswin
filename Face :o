@@ -1,0 +1,15 @@
+var eyeSize;
+eyeSize = 65;
+noStroke();
+//face
+fill(0, 242, 255);
+ellipse(200,210,329,330);
+//eyes
+fill(0,0,0);
+ellipse(280,150,eyeSize,eyeSize);
+ellipse(120,150,eyeSize,eyeSize);
+var mouthSize;
+mouthSize = 92;
+//mouth
+fill(255, 0, 0);
+ellipse(195,310,mouthSize,mouthSize);
